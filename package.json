@@ -1,0 +1,39 @@
+{
+  "name": "vet3m-stack",
+  "version": "0.0.16",
+  "private": true,
+  "main": "dist-electron/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.11.1",
+    "@mantine/hooks": "^7.11.1",
+    "@tanstack/react-query": "^4.29.14",
+    "@tanstack/react-router": "^1.44.4",
+    "@trpc/client": "10.33.1",
+    "@trpc/react-query": "10.33.1",
+    "@trpc/server": "10.33.1",
+    "electron": "29.3.2",
+    "electron-trpc": "0.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "superjson": "^1.12.3",
+    "vite": "^5.3.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@tanstack/router-devtools": "^1.44.4",
+    "@tanstack/router-plugin": "^1.44.3",
+    "@types/node": "^20.12.8",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "postcss": "^8.4.39",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1",
+    "vite-plugin-electron": "^0.28.7"
+  }
+}
